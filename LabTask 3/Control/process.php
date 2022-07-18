@@ -1,8 +1,8 @@
 <?php
-
+$name2="";
 if(isset($_REQUEST["Submit"])){
 $fname = $_POST["fname"];
-$name2="";
+//$name2="";
 if(empty($fname))
 {
     //echo "You haven't entered your first name!";
